@@ -28,8 +28,8 @@ public class PemilihanPercobaan217 {
             System.out.println("Nilai Huruf C\nNilai Setara 2\nKualifikasi Cukup");
         } else if (39<total && total<=50) {
             System.out.println("Nilai Huruf D\nNilai Setara 1\nKualifikasi Kurang");
-        } else if (total<=39) {
-            System.out.println("Nilai Huruf E\nNilai Setara 0\n Kualifikasi Gagal");
+        } else {
+            System.out.println("Nilai Huruf E\nNilai Setara 0\nKualifikasi Gagal");
         }
     }
 }
